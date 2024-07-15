@@ -1,0 +1,27 @@
+/* Album.css */
+.album-grid {
+  padding: 16px;
+  justify-content: center;
+}
+/* Add a gap between carousel slides */
+.custom-carousel-item {
+  padding-right: 10px; /* Adjust this value to set the desired gap */
+  /* height: 20px; */
+}
+#banner_carousel.inner.animate > li.slide {
+  margin: 5px; /* Adjust this value for the desired space */
+}
+.music-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.music-card .MuiCardMedia-root {
+  flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+  .album-grid {
+    justify-content: flex-start;
+  }
+}
